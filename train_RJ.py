@@ -30,7 +30,7 @@ tf.random.set_seed(123)
 mobilenet_v3 = MobilenetV3(INPUT_SHAPE,NUM_CLASSES,'small',alpha=0.5)
 cos_lr = tf.keras.callbacks.LearningRateScheduler(
     lambda epoch, _: tf.compat.v1.train.cosine_decay(1e-3, epoch,EPOCH)().numpy(), 1)
-logging=tf.keras.callbacks.TensorBoard(log_dir='./arjuna', write_images=True)
+logging=tf.keras.callbacks.TensorBoard(log_dir='./model', write_images=True)
 mobilenet_v3.compile(tf.keras.optimizers.Nadam(1e-3), loss=tf.keras.losses.sparse_categorical_crossentropy,metrics=["sparse_categorical_accuracy"])
 
 mobilenet_v3.summary()
@@ -63,7 +63,7 @@ test_dataset = test_dataset.map(lambda image,label:(tf.image.resize(image,INPUT_
     tf.data.experimental.AUTOTUNE).repeat()
 
 checkpoint = ModelCheckpoint(
-    "./Best_model/arjuna", monitor='val_sparse_categorical_accuracy', verbose=1, save_best_only=True,
+    "./Best_model/model", monitor='val_sparse_categorical_accuracy', verbose=1, save_best_only=True,
     save_weights_only=False, mode='auto', save_freq='epoch', options=None
 )
 mobilenet_v3.fit_generator(datagen.flow(train_images,train_labels,batch_size=BATCH_SIZE),epochs=EPOCH, steps_per_epoch=max(1,train_num//BATCH_SIZE), validation_data=(test_images,test_labels),validation_steps=max(1,test_num//BATCH_SIZE), callbacks=([checkpoint,cos_lr,logging]))

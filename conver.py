@@ -11,11 +11,10 @@
   
 import tensorflow as tf
 
-converter = tf.lite.TFLiteConverter.from_keras_model('arjuna')
+converter = tf.lite.TFLiteConverter.from_saved_model('arjuna')
 converter.target_spec.supported_ops = [
   tf.lite.OpsSet.TFLITE_BUILTINS, # enable TensorFlow Lite ops.
-  tf.lite.OpsSet.SELECT_TF_OPS, # enable TensorFlow ops.
-  tf.lite.OpsSet.TFLITE_BUILTINS_INT8
+  tf.lite.OpsSet.SELECT_TF_OPS # enable TensorFlow ops.
 ]
 tflite_model = converter.convert()
 with open('arjuna.tflite', 'wb') as f:
