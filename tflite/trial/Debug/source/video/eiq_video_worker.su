@@ -1,0 +1,9 @@
+eiq_video_worker.c:28:17:start	8	static
+eiq_video_worker.c:51:13:isReady	4	static
+eiq_video_worker.c:56:13:notify	8	static
+eiq_video_worker.c:61:15:getResolution	16	static
+eiq_video_worker.c:77:17:getData	8	static
+eiq_video_worker.c:91:13:refresh	64	static
+eiq_video_worker.c:122:13:setReadyCallback	16	static
+eiq_video_worker.c:160:17:setCaptureWindowHeightRate	24	static
+eiq_video_worker.c:189:20:EIQ_VideoWorkerInit	8	static

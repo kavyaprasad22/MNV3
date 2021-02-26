@@ -1,0 +1,33 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+iomanip:225:3:std::_Setw std::setw(int)	16	static
+stl_vector.h:125:14:std::_Vector_base<std::pair<float, int>, std::allocator<std::pair<float, int> > >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:285:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+stl_vector.h:484:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+output_postproc.cpp:18:10:status_t MODEL_ProcessOutput(const uint8_t*, const tensor_dims_t*, tensor_type_t, int)	104	static
+stl_vector.h:128:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+allocator.h:153:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = std::pair<float, int>]	16	static
+stl_vector.h:330:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_vector.h:1004:7:bool std::vector<_Tp, _Alloc>::empty() const [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_vector.h:1118:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::front() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+allocator.h:138:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = std::pair<float, int>]	16	static
+stl_vector.h:94:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl_data::_Vector_impl_data() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+new_allocator.h:89:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = std::pair<float, int>]	16	static
+stl_vector.h:347:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_vector.h:273:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = std::pair<float, int>*; _Tp = std::pair<float, int>]	24	static
+stl_vector.h:817:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::begin() const [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_vector.h:835:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::end() const [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_iterator.h:893:5:bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = const std::pair<float, int>*; _Container = std::vector<std::pair<float, int> >]	24	static
+stl_vector.h:808:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = std::pair<float, int>; _Alloc = std::allocator<std::pair<float, int> >]	24	static
+stl_iterator.h:819:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::reference __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator*() const [with _Iterator = std::pair<float, int>*; _Container = std::vector<std::pair<float, int> >]	16	static
+new_allocator.h:80:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = std::pair<float, int>]	16	static
+alloc_traits.h:469:7:static void std::allocator_traits<std::allocator<_Tp1> >::deallocate(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, std::allocator_traits<std::allocator<_Tp1> >::pointer, std::allocator_traits<std::allocator<_Tp1> >::size_type) [with _Tp = std::pair<float, int>]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::pair<float, int>*]	16	static
+stl_iterator.h:806:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = const std::pair<float, int>*; _Container = std::vector<std::pair<float, int> >]	16	static
+stl_iterator.h:871:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = const std::pair<float, int>*; _Container = std::vector<std::pair<float, int> >]	16	static
+stl_iterator.h:806:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = std::pair<float, int>*; _Container = std::vector<std::pair<float, int> >]	16	static
+new_allocator.h:119:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = std::pair<float, int>]	24	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::pair<float, int>*]	16	static
+output_postproc.cpp:47:1:void __static_initialization_and_destruction_0(int, int)	16	static
+output_postproc.cpp:47:1:cpp)	8	static

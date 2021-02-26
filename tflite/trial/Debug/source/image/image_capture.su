@@ -1,0 +1,2 @@
+image_capture.c:22:10:IMAGE_GetImage	40	static
+image_capture.c:51:13:IMAGE_GetImageName	4	static

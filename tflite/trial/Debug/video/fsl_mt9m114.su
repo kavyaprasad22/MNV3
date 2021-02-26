@@ -1,0 +1,9 @@
+fsl_mt9m114.c:133:17:MT9M114_MultiWrite	40	static
+fsl_mt9m114.c:150:17:MT9M114_SoftwareReset	40	static
+fsl_mt9m114.c:182:17:MT9M114_SetState	32	static
+fsl_mt9m114.c:247:10:MT9M114_Init	40	static
+fsl_mt9m114.c:372:10:MT9M114_Deinit	16	static
+fsl_mt9m114.c:379:10:MT9M114_Start	16	static
+fsl_mt9m114.c:384:10:MT9M114_Stop	16	static
+fsl_mt9m114.c:389:10:MT9M114_Control	24	static
+fsl_mt9m114.c:394:10:MT9M114_InitExt	24	static

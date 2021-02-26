@@ -1,0 +1,8 @@
+eiq_display.c:34:13:start	16	static
+eiq_display.c:49:15:getResolution	16	static
+eiq_display.c:57:13:notify	16	static
+eiq_display.c:65:10:getEmptyBuffer	4	static
+eiq_display.c:70:13:setReadyCallback	16	static
+eiq_display.c:74:13:bufferReleased	16	static
+eiq_display.c:85:13:init	24	static
+eiq_display.c:110:16:EIQ_DisplayInit	8	static

@@ -1,0 +1,13 @@
+fsl_camera_receiver.h:77:24:CAMERA_RECEIVER_Init	32	static
+fsl_camera_receiver.h:126:24:CAMERA_RECEIVER_Start	16	static
+fsl_camera_receiver.h:149:24:CAMERA_RECEIVER_SubmitEmptyBuffer	16	static
+fsl_camera_receiver.h:161:24:CAMERA_RECEIVER_GetFullBuffer	16	static
+fsl_camera_device.h:93:24:CAMERA_DEVICE_Init	16	static
+fsl_camera_device.h:148:24:CAMERA_DEVICE_Start	16	static
+eiq_camera.c:30:13:start	8	static
+eiq_camera.c:39:15:getResolution	16	static
+eiq_camera.c:46:13:notify	8	static
+eiq_camera.c:52:13:setReadyCallback	16	static
+eiq_camera.c:56:13:bufferReady	24	static
+eiq_camera.c:70:13:init	40	static
+eiq_camera.c:127:15:EIQ_CameraInit	8	static

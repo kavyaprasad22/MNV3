@@ -1,0 +1,2 @@
+image_conv.c:18:10:IMAGE_ConvRgb888ToRgb565	24	static
+image_conv.c:27:6:IMAGE_ExtractRect	40	static

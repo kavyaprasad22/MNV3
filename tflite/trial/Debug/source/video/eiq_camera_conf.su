@@ -1,0 +1,11 @@
+fsl_clock.h:1138:20:CLOCK_SetMux	24	static
+fsl_clock.h:1175:20:CLOCK_SetDiv	24	static
+fsl_clock.h:1211:20:CLOCK_ControlGate	32	static
+fsl_clock.h:1228:20:CLOCK_EnableClock	16	static
+fsl_iomuxc.h:1270:20:IOMUXC_SetPinMux	24	static
+eiq_camera_conf.c:85:6:CSI_IRQHandler	8	static
+eiq_camera_conf.c:91:13:BOARD_PullCameraResetPin	16	static
+eiq_camera_conf.c:118:13:i2c_release_bus_delay	8	static
+eiq_camera_conf.c:123:13:BOARD_I2C_ReleaseBus	24	static
+eiq_camera_conf.c:174:6:BOARD_EarlyPrepareCamera	8	static
+eiq_camera_conf.c:181:6:BOARD_InitCameraResource	16	static

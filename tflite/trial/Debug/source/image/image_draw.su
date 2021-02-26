@@ -1,0 +1,3 @@
+image_draw.c:12:6:IMAGE_DrawPixel	32	static
+image_draw.c:18:6:IMAGE_DrawLine	64	static
+image_draw.c:44:6:IMAGE_DrawRect	48	static

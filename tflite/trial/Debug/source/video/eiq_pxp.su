@@ -1,0 +1,8 @@
+fsl_pxp.h:586:20:PXP_Start	16	static
+fsl_pxp.h:685:24:PXP_GetStatusFlags	16	static
+fsl_pxp.h:705:20:PXP_ClearStatusFlags	16	static
+fsl_pxp.h:856:20:PXP_SetProcessSurfaceBackGroundColor	16	static
+fsl_pxp.h:1007:20:PXP_SetRotateConfig	16	static
+fsl_pxp.h:1185:20:PXP_EnableCsc1	16	static
+eiq_pxp.c:40:6:EIQ_PXP_Init	64	static
+eiq_pxp.c:87:6:EIQ_PXP_Rotate	16	static
